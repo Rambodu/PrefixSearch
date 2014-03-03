@@ -41,25 +41,25 @@ public class TestDataIndex {
 
 			Document doc = new Document();
 			doc.add(new StringField("name", "rambo", Store.YES));
-			doc.add(new StringField("title", "∂≈º—¿˚", Store.YES));
+			doc.add(new StringField("title", "Êùú‰Ω≥", Store.YES));
 			doc.add(new IntField("count", 10, Store.NO));
 			writer.addDocument(doc);
 
 			doc = new Document();
 			doc.add(new StringField("name", "leign", Store.YES));
-			doc.add(new StringField("title", "∂≈◊”Ã€", Store.YES));
+			doc.add(new StringField("title", "Êùú‰Ω≥Âà©", Store.YES));
 			doc.add(new IntField("count", 5, Store.NO));
 			writer.addDocument(doc);
 
 			doc = new Document();
 			doc.add(new StringField("name", "ll", Store.YES));
-			doc.add(new StringField("title", "∂≈º—", Store.YES));
+			doc.add(new StringField("title", "Êùú", Store.YES));
 			doc.add(new IntField("count", 11, Store.NO));
 			writer.addDocument(doc);
 
 			doc = new Document();
 			doc.add(new StringField("name", "rr", Store.YES));
-			doc.add(new StringField("title", "º—¿˚", Store.YES));
+			doc.add(new StringField("title", "‰Ω≥Âà©", Store.YES));
 			doc.add(new IntField("count", 13, Store.NO));
 			writer.addDocument(doc);
 

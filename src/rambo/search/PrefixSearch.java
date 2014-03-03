@@ -28,7 +28,7 @@ public class PrefixSearch {
 					"/Users/rambodu/Documents/workspace/searchDemo/index"));
 			IndexReader reader = DirectoryReader.open(dir);
 			IndexSearcher searcher = new IndexSearcher(reader);
-			PrefixQuery query = new PrefixQuery(new Term("title", "¼Ñ"));
+			PrefixQuery query = new PrefixQuery(new Term("title", "ä½³"));
 			TopDocs topDocs = searcher.search(query, 5);
 			System.out.println("hit total=" + topDocs.totalHits);
 
